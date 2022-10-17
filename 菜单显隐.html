@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    
+    <script>
+    function changeIn(obj) {
+
+        if (obj.style.display == 'none') {
+            obj.style.display = 'block';
+        }
+        else
+            obj.style.display = 'none';
+
+    }
+    </script>
+</head>
+<body>
+    
+     <p  onclick="changeIn(ul1)">主菜单1</p >
+    
+     
+        <ul id="ul1" type="node">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+    </ul> 
+
+</body>
+</html>
